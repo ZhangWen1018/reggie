@@ -1,0 +1,14 @@
+package com.zhang.reggie.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zhang.reggie.entity.Employee;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * @author ZhangLi
+ * @version 1.0
+ */
+@Mapper
+public interface EmployeeMapper extends BaseMapper<Employee> {
+
+}
